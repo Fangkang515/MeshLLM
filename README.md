@@ -1,4 +1,4 @@
-### [Paper]([https://arxiv.org/abs/2407.06842](https://openaccess.thecvf.com/content/ICCV2025/html/Fang_MeshLLM_Empowering_Large_Language_Models_to_Progressively_Understand_and_Generate_ICCV_2025_paper.html)
+### [Paper](https://openaccess.thecvf.com/content/ICCV2025/html/Fang_MeshLLM_Empowering_Large_Language_Models_to_Progressively_Understand_and_Generate_ICCV_2025_paper.html)
 
 Code will be released soon (expected within two months).
 
