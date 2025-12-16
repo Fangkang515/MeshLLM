@@ -1,0 +1,44 @@
+### model
+model_name_or_path: /data/code-pretrain1/fsk/LLamA-mesh/huggingface_weights/DeepSeek-R1-Distill-Qwen-14B
+trust_remote_code: true
+
+### method
+stage: sft
+do_train: true
+finetuning_type: lora
+lora_rank: 8
+lora_target: all
+deepspeed: examples/deepspeed/ds_z3_config.json  # choices: [ds_z0_config.json, ds_z2_config.json, ds_z3_config.json]
+
+### dataset
+dataset: 3D_future_data_SFT_sigle_dialogue,ShapeNet_data_SFT_sigle_dialogue,ObjaverseV1_Max500_data_SFT_sigle_dialogue
+template: deepseek3
+cutoff_len: 8192
+max_samples: 1000000000
+overwrite_cache: true
+preprocessing_num_workers: 16
+
+### output
+output_dir: saves/DeepSeek-R1-Distill-Qwen-14B/lora/sft_lr1e4_epoch4_32GPUs
+logging_steps: 10
+save_steps: 5000
+plot_loss: true
+overwrite_output_dir: true
+
+### train
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 8
+learning_rate: 1.0e-4
+num_train_epochs: 5.0
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: true
+ddp_timeout: 180000000
+
+### eval
+val_size: 0.1
+per_device_eval_batch_size: 1
+eval_strategy: steps
+eval_steps: 3000
+
+max_new_tokens: 8192
