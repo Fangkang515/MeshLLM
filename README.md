@@ -1,6 +1,7 @@
 ### [Paper](https://openaccess.thecvf.com/content/ICCV2025/html/Fang_MeshLLM_Empowering_Large_Language_Models_to_Progressively_Understand_and_Generate_ICCV_2025_paper.html)
 
 - [x] training codes
+- [ ] README
 - [ ] datasets
 
 
