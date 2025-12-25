@@ -9,11 +9,11 @@
 ## Getting Started
 
 ### Installation
-、、、
+```
 git clone --depth 1 https://github.com/Fangkang515/MeshLLM.git
 cd MeshLLM
 pip install -e ".[torch,metrics]" --no-build-isolation
-、、、
+```
 
 ### Quickstart
 ```
