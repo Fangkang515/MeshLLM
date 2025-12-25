@@ -7,12 +7,14 @@
 - [ ] datasets
 
 ## Getting Started
+
 ### Installation
 、、、
 git clone --depth 1 https://github.com/Fangkang515/MeshLLM.git
 cd MeshLLM
 pip install -e ".[torch,metrics]" --no-build-isolation
 、、、
+
 ### Quickstart
 ```
 llamafactory-cli train examples/train_lora/llama3_lora_sft.yaml
