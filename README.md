@@ -2,8 +2,10 @@
 
 ### [Paper](https://openaccess.thecvf.com/content/ICCV2025/html/Fang_MeshLLM_Empowering_Large_Language_Models_to_Progressively_Understand_and_Generate_ICCV_2025_paper.html)
 
+<img width="967" height="388" alt="image" src="https://github.com/user-attachments/assets/0fefd73d-48d2-4b12-8bf7-f0770d8dfc45" />
+
+
 - [x] training codes
-- [ ] README
 - [ ] datasets
 
 ## Getting Started
@@ -19,8 +21,6 @@ pip install -e ".[torch,metrics]" --no-build-isolation
 ```
 llamafactory-cli train examples/train_lora/llama3_lora_sft.yaml
 ```
-
-<img width="967" height="388" alt="image" src="https://github.com/user-attachments/assets/0fefd73d-48d2-4b12-8bf7-f0770d8dfc45" />
 
 
 ## Citation
