@@ -6,7 +6,7 @@
 
 
 - [x] training codes
-- [ ] datasets
+- [ ] datasets (The entire dataset will be very large. We are preparing a production script and a downloadable subset.)
 
 ## Getting Started
 
