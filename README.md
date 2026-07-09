@@ -6,7 +6,7 @@
 
 
 - [x] training codes
-- [ ] datasets (The entire dataset will be very large. We are preparing a production script and a downloadable subset.)
+- [x] datasets: [https://github.com/Fangkang515/MeshLLM_SamPart3D](https://github.com/Fangkang515/MeshLLM_SamPart3D)
 
 ## Getting Started
 
